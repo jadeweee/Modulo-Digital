@@ -27,7 +27,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
+    background: var(--#FFFFFF);
     color: var(--#EF95CF);
 }
 
