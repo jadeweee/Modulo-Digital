@@ -203,14 +203,25 @@
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "bar",
                 data: {
-                    labels: ["ENE 20", "MAY 20", "OCT 20", "ENE 21"],
+                    labels: ["Mujeres, pre-covid", "Mujeres, post-covid", "Hombres, pre-covid", "Hombres, post-covid"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [44.5, 35.3, 42.2, 40.5],
-                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            label: "Aumento de brechas de género-pobreza",
+                            data: [206, 232, 195, 221],
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.2)',
+                                'rgba(255, 159, 64, 0.2)',
+                                'rgba(255, 205, 86, 0.2)', 
+                                'rgba(75, 192, 192, 0.2)',
+                            ],
+                            borderColor: [
+                                'rgb(255, 99, 132)',
+                                'rgb(255, 159, 64)',
+                                'rgb(255, 205, 86)',
+                                'rgb(75, 192, 192)',
+                                
                             borderWidth: 1,
                         },
                     ],
