@@ -48,12 +48,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(--#10069F);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--#FFFFFF);
     text-decoration: none;
 }
 
