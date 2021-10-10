@@ -112,6 +112,7 @@ main {
 @media (min-width: 768px) {
     main {
         background-size: 50% auto;
+        color: var(--#10069F);
     }
 }
 
