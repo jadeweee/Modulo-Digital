@@ -201,13 +201,14 @@
         ></script>
         <!--ESTE ES EL SCRIPT PARA EL GRÁFICO-->
         <script>
-            var ctx = document.getElementById("nuestroGrafico");
+            var ctx = document.getElementById("nuestroGrafico").getContext('2d');
             var nuestroGrafico = new Chart(ctx, {
                 type: "bar",
-                data = {
+                data: {
                     labels: ["Mujeres, pre-covid", "Mujeres, post-covid", "Hombres, pre-covid", "Hombres, post-covid"],
-                    datasets: [{
-                            label: "Aumento de brechas de género-pobreza",
+                    datasets: [
+                        {
+                            label: "Aumento de pobreza",
                             data: [206, 232, 195, 221],
                             backgroundColor: ["#ff6384", "#ff9e40", "#ffcd56", "#4bc0c0"],
                             borderWidth: 1,
