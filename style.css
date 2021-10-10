@@ -28,7 +28,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     background: var(--#FFFFFF);
-    color: var(--#10069F);
+    color: var(--#1E1CA6);
 }
 
 strong {
@@ -48,7 +48,7 @@ p.lead {
 }
 
 a {
-    color: var(--#10069F);
+    color: var(--#1E1CA6);
     text-decoration: underline;
 }
 
